@@ -1,0 +1,221 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.home_banner{
+  width: 110%;
+  height: 400px;
+  position: relative;
+}
+
+.container{
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.company_name{
+  position: absolute;
+  top: 20px;
+}
+
+.navbar_contents{
+  position:absolute;
+  right: 20px;
+  top: 20px;
+  display: flex;
+  gap: 30px;
+  font-size: smaller;
+  margin-right: 100px;
+  cursor: pointer;
+}
+
+.download_app{
+  width: 15px;
+}
+
+.globe_lang{
+  width: 14px;
+  height: 14px;
+  margin-right: 2px;
+  margin-top: 2px;
+}
+
+.language{
+  display: flex;
+  flex-wrap: wrap;
+  gap:2px;
+}
+
+.drop_down{
+  width: 16px;
+  margin-bottom: 3px;
+}
+
+.headline_content{
+  position: absolute;
+  top: 110px;
+}
+
+.head_line{
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.bold_headline{
+  font-weight: bolder;
+}
+
+.search_engine{
+  position: absolute;
+  top: 270px;
+  width: 700px;
+  background-color:white;
+  height: 80px;
+  justify-content: end;
+  align-items: flex-end;
+  border-radius: 9px;
+  box-shadow: 4px 4px 4px 4px grey;
+}
+
+.takeaway_btn{
+  background-color: #d82927;
+  margin-left: 500px;
+  margin-top: 10px;
+  padding: 15px;
+  padding-right: 20px;
+  padding-left: 20px;
+  color: white;
+  font-weight: 300;
+  font-size: 18px;
+  border-radius: 8px;
+  border: #d82927;
+  cursor: pointer;
+}
+
+.second_phrase{
+  font-size: 30px;
+  margin-top: 60px;
+}
+
+.second_images{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+.images_names{
+  display: flex;
+  font-size: medium;
+  font-weight: 600;
+  color: #d82927;
+}
+
+.order{
+  margin-left: 220px;
+}
+
+.eat{
+  margin-left: 270px;
+}
+
+.support{
+  margin-left: 260px;
+}
+
+.learn_more{
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.learn_btn{
+  color: white;
+  background-color: #59CE8F;
+  border: #59CE8F;
+  border-radius: 8px;
+  padding: 20px;
+  padding-left: 35px;
+  padding-right: 35px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.third_contents{
+  background-color: #f2f2f2;
+  width: 100%;
+  height: 400px;
+}
+
+.third_line{
+  font-weight: 500px;
+  font-size: 30px;
+  margin-left: 80px;
+  padding-top: 60px;
+}
+
+.third_in{
+  font-weight: lighter;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.end{
+  margin-bottom: 500px;
+}
