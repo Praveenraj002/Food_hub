@@ -4,6 +4,10 @@
   font-family: 'Poppins', sans-serif;
 }
 
+ /* Media Query Laptop Pc Start */ 
+@media only screen and (min-width: 1020px)
+{
+
 .home_banner{
   width: 110%;
   height: 400px;
@@ -321,6 +325,160 @@
   margin-top: 30px;
 }
 
+}
+/* Media Query Laptop Pc End */
+
+/* Media Qeury for Mobile Screen  */
+
+@media screen and  (max-width:767px){
+  .home_banner{
+    position: relative;
+    width: 100%;
+    height: 300px;
+  }
+  .company_name{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+
+  .navbar_contents{
+    position: absolute;
+  }
+  .download_app{
+    display: none;
+  }
+
+  .globe_lang{
+    display:none;
+  }
+
+    .drop_down{
+    display:none;
+  }
+
+  .lang{
+    display: none;
+  }
+
+  .log_in{
+    display: none;
+  }
+
+  .become_partner{
+    display: none;
+  }
+
+  .head_line{
+    position: absolute;
+    top: 110px;
+    left: 65px;
+    text-align: center;
+    font-weight: 500;
+  }
+
+  .bold_headline{
+    font-weight: 800;
+  }
+
+  .search_engine{
+    position: absolute;
+    background-color: white;
+    width: 80%;
+    display: flex;
+    top: 190px;
+    left: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px grey;
+  }
+
+  .takeaway_btn{
+    background-color: #d82927;
+    color: white;
+    border-radius: 5px;
+    padding: 6px;
+    margin-left: 170px;
+    border: solid #d82927;
+    font-size: 13px;
+  }
+
+  .second_contents{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .second_phrase{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 15px;
+  }
+
+  .second_images{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 20px;
+    justify-content: space-evenly;
+    gap: 25px;
+  }
+
+  .order_image{
+    width: 60px;
+    height: 60px;
+  }
+
+  .eat_image{
+    width: 60px;
+    height: 60px;
+  }
+
+  .support_image{
+    width: 60px;
+    height: 60px;
+  }
+
+  .images_names{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    /* gap:20px; */
+  }
+  .order{
+    left: 25px;
+    font-weight: bold;
+    color:#d82927;
+    position: absolute;
+  }
+
+  .eat{
+    font-weight: bold;
+    color:#d82927;
+    position: absolute;
+  }
+
+  .support{
+    position: absolute;
+    left: 235px;
+    font-weight: bold;
+    color:#d82927;
+  }
+
+  .learn_more{
+    margin-top: 50px;
+    margin-left: 100px;
+  }
+
+  .learn_btn{
+    color: white;
+    background-color: #59CE8F;
+    border: solid #59CE8F;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content:center;
+    align-items: center;
+  }
+  }
 
 
 
